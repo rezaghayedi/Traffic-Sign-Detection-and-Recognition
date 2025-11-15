@@ -37,3 +37,14 @@ This project implements a **traffic sign detection and classification pipeline**
   - **GTSDB:** [Kaggle link](https://www.kaggle.com/datasets/safabouguezzi/german-traffic-sign-detection-benchmark-gtsdb)  
 
 - **Note:** In the code, the datasets are already loaded from Google Drive, so there is no need to download them manually.
+
+## Workflow Overview
+
+1. **Image Input & Detection:**  
+   An input image is provided to the pipeline. The **YOLOv8 model** detects and extracts traffic signs from the image by drawing bounding boxes around them.
+
+2. **Classification:**  
+   The cropped traffic signs from YOLO are passed to the **ResNet18 model**, which classifies each sign into its corresponding category.
+
+3. **Video Processing:**  
+   After testing on single images, the pipeline processes videos frame by frame. Detected signs are highlighted, and their classes are predicted in real-time, showing the results overlaid on the video.
