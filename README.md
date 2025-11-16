@@ -129,7 +129,7 @@ To run this project on your local machine, follow these steps:
 1.  **Clone the repository:**
     (Please replace the URL and folder name with your project's info)
     ```bash
-    git clone [Your-Traffic-Sign-Repo-URL]
+    git clone https://github.com/rezaghayedi/Traffic-Sign-Detection-and-Recognition.git
     cd Traffic-Sign-Detection-and-Recognition
     ```
 
