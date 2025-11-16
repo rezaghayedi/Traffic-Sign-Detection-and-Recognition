@@ -134,3 +134,10 @@ However, for those who wish to have the model files directly for inspection or o
 * [Drive Link for SVM](https://drive.google.com/file/d/1btfabc9G_DFct9MX7XFpiDYzfevzTqqP/view?usp=sharing)
 * [Drive Link for KNN](https://drive.google.com/file/d/1--7yQUVX5Er_nWLpcAHV5LT9oBTYHbLL/view?usp=sharing)
 * [Drive Link for RF](https://drive.google.com/file/d/1-9HrApW_GAyP3DtatilIJXrGluGcpAUr/view?usp=sharing)
+
+---
+
+## 👤 Author
+
+* **Reza Ghayedi**
+* **LinkedIn:** www.linkedin.com/in/rezaghayedi
