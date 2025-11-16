@@ -122,6 +122,26 @@ Below is a sample frame from a test video captured by a mobile phone, demonstrat
 
 
 ---
+## 🏃 Getting Started
+
+To run this project on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    (Please replace the URL and folder name with your project's info)
+    ```bash
+    git clone [Your-Traffic-Sign-Repo-URL]
+    cd Traffic-Sign-Detection-and-Recognition
+    ```
+
+2.  **Install the required dependencies:**
+    This will install all necessary libraries listed in the `requirements.txt` file.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the Jupyter Notebook:**
+    The main project file is a `.ipynb` notebook. Open the `src/` folder and run the notebook file using **Google Colab**.
+---
 
 ## 💾 Models
 
