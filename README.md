@@ -116,11 +116,10 @@ Below is a sample frame from a test video captured by a mobile phone, demonstrat
   <img src="images/sample_result_Bournemouth.png" alt="Real-time detection in a video frame" width="85%">
 </p>
 <p align="center">
-  <i>Test location: Lansdowne Roundabout, Bournemouth, UK</i>
+  <i>Lansdowne Roundabout, Bournemouth, UK</i>
 </p>
 
 
----
 
 ---
 
