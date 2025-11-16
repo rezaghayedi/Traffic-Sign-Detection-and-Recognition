@@ -79,9 +79,6 @@ In this stage, the model's task is to find the precise location of traffic signs
     <td><img src="images/GTSDB_2_2.png" alt="Detection output from YOLO" width="400"></td>
  </tr>
 </table>
-<p align="center">
-<small><i>An image from a frame where YOLO has detected and boxed multiple signs.</i></small></p>
-
 
 ## 🏷️ Stage 2: Traffic Sign Classification
 
@@ -105,7 +102,7 @@ specific type (e.g., "Speed Limit 60," "Stop Sign," "No Entry").
     <td>
       <img src="images/GTSRB_2_2.png" alt="Classification Example 2" width="400">
       <br>
-      <b>Predicted: "Speed Limit 30"</b> </td>
+      <b>Predicted: "Speed Limit 30 km/h"</b> </td>
  </tr>
 </table>
 
