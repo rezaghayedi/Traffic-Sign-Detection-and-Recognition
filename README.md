@@ -37,6 +37,7 @@ This project implements a **traffic sign detection and classification pipeline**
   - **GTSDB:** [Kaggle link](https://www.kaggle.com/datasets/safabouguezzi/german-traffic-sign-detection-benchmark-gtsdb)  
 
 - **Note:** In the code, the datasets are already loaded from Google Drive, so there is no need to download them manually.
+- Simply open the notebook inside the **src** folder and run it. The scripts automatically read all required paths and files directly from Google Drive.
 
 ## 📈 Overall Workflow
 
