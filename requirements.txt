@@ -1,0 +1,13 @@
+ultralytics
+torch
+torchvision
+matplotlib
+tqdm
+scikit-learn
+opencv-python-headless
+numpy
+Pillow
+seaborn
+pandas
+moviepy
+gdown
