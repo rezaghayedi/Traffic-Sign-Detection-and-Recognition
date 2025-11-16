@@ -54,7 +54,7 @@ This diagram illustrates the complete process, from input to final output.
 <p align="center">
   <img src="images/traffic_sign_pipeline.png" alt="Overall Traffic Sign Detection and Classification Workflow" width="85%">
 </p>
-* (A flowchart showing the entire process from input to output.)*
+*(A flowchart showing the entire process from input to output.)*
 
 ## 🎯 Stage 1: Traffic Sign Detection
 
