@@ -127,8 +127,8 @@ Below is a sample frame from a test video captured by a mobile phone, demonstrat
 
 However, for those who wish to have the model files directly for inspection or offline use, they are available at the links below:
 
-* **YOLOv8:** [Link for Yolov8](https://drive.google.com/file/d/1hPKc-xkz9dQoH6xaNaUqQ7dWZzhf6qwu/view?usp=sharing)
-* **ResNet-18:** [Link for Resnet-18](https://drive.google.com/file/d/1pw1X50KZfO5nws8SNKFm0P1OfwdDbcDa/view?usp=sharing)
-* **SVM:** [Link for SVM](https://drive.google.com/file/d/1btfabc9G_DFct9MX7XFpiDYzfevzTqqP/view?usp=sharing)
-* **KNN:** [Link for KNN](https://drive.google.com/file/d/1--7yQUVX5Er_nWLpcAHV5LT9oBTYHbLL/view?usp=sharing)
-* **Random Forest:** [Link for RF](https://drive.google.com/file/d/1-9HrApW_GAyP3DtatilIJXrGluGcpAUr/view?usp=sharing)
+* [Drive Link for Yolov8](https://drive.google.com/file/d/1hPKc-xkz9dQoH6xaNaUqQ7dWZzhf6qwu/view?usp=sharing)
+* [Drive Link for Resnet-18](https://drive.google.com/file/d/1pw1X50KZfO5nws8SNKFm0P1OfwdDbcDa/view?usp=sharing)
+* [Drive Link for SVM](https://drive.google.com/file/d/1btfabc9G_DFct9MX7XFpiDYzfevzTqqP/view?usp=sharing)
+* [Drive Link for KNN](https://drive.google.com/file/d/1--7yQUVX5Er_nWLpcAHV5LT9oBTYHbLL/view?usp=sharing)
+* [Drive Link for RF](https://drive.google.com/file/d/1-9HrApW_GAyP3DtatilIJXrGluGcpAUr/view?usp=sharing)
