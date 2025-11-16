@@ -38,13 +38,73 @@ This project implements a **traffic sign detection and classification pipeline**
 
 - **Note:** In the code, the datasets are already loaded from Google Drive, so there is no need to download them manually.
 
-## Workflow Overview
+## 📈 Overall Workflow
 
-1. **Image Input & Detection:**  
-   An input image is provided to the pipeline. The **YOLOv8 model** detects and extracts traffic signs from the image by drawing bounding boxes around them.
+This diagram illustrates the complete process, from input to final output.
 
-2. **Classification:**  
-   The cropped traffic signs from YOLO are passed to the **ResNet18 model**, which classifies each sign into its corresponding category.
+**Main Steps:**
+1.  **Input:** An image containing various traffic signs.
+2.  **Detection:** Finding the location (bounding box) of each traffic sign.
+3.  **Extraction:** Cropping each detected sign from the main image.
+4.  **Classification:** Identifying the specific type of each cropped sign.
+5.  **Output:** The final image with all signs detected and labeled.
+
+## Traffic Sign Detection Workflow
+
+<p align="center">
+  <img src="images/traffic_sign_pipeline.png" alt="Overall Traffic Sign Detection and Classification Workflow" width="85%">
+</p>
+*(A flowchart showing the entire process from input to output.)*
+
+## 🎯 Stage 1: Traffic Sign Detection
+
+In this stage, the model's task is to find the precise location of traffic signs in an image and draw a bounding box around them.
+
+* **Model Used:** YOLO (You Only Look Once)
+* **Dataset:** GTSDB (German Traffic Sign Detection Benchmark)
+* **Process:** The YOLO model scans the input image and accurately identifies the position of every traffic sign present.
+
+<table align="center">
+ <tr>
+    <td align="center"><b>Input Image (GTSDB)</b></td>
+    <td align="center"><b>Detection Result (YOLO)</b></td>
+ </tr>
+ <tr>
+    <td><img src="images/GTSDB_1.png" alt="Input from GTSDB" width="400"></td>
+    <td><img src="images/GTSBD_1_1.png" alt="Detection output from YOLO" width="400"></td>
+ </tr>
+ <tr>
+    <td><img src="images/GTSDB_2.png" alt="Input from GTSDB" width="400"></td>
+    <td><img src="images/GTSDB_2_2.png" alt="Detection output from YOLO" width="400"></td>
+ </tr>
+</table>
+*(An image from a frame where YOLO has detected and boxed multiple signs.)*
+
+## 🏷️ Stage 2: Traffic Sign Classification
+
+After each sign is detected and cropped, this stage identifies its
+specific type (e.g., "Speed Limit 60," "Stop Sign," "No Entry").
+
+* **Model Used:** ResNet (Residual Neural Network)
+* **Dataset:** GTSRB (German Traffic Sign Recognition Benchmark)
+* **Process:** Each cropped sign (detected by YOLO) is fed as input to the ResNet model, which classifies it.
+
+<table align="center">
+ <tr>
+    <td align="center"><b>Example 1 (GTSRB)</b></td>
+    <td align="center"><b>Example 2 (GTSRB)</b></td>
+ </tr>
+ <tr>
+    <td>
+      <img src="images/GTSRB_1_1.png" alt="Classification Example 1" width="400">
+      <br>
+      <b>Predicted: "Speed Limit 30"</b> </td>
+    <td>
+      <img src="images/GTSRB_2_2.png" alt="Classification Example 2" width="400">
+      <br>
+      <b>Predicted: "Priority"</b> </td>
+ </tr>
+</table>
 
 3. **Video Processing:**  
    After testing on single images, the pipeline processes videos frame by frame. Detected signs are highlighted, and their classes are predicted in real-time, showing the results overlaid on the video.
