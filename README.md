@@ -140,7 +140,7 @@ To run this project on your local machine, follow these steps:
     ```
 
 3.  **Run the Jupyter Notebook:**
-    The main project file is a `.ipynb` notebook. Open the `src/` folder and run the notebook file using **Google Colab**.
+    The main project file is a `.ipynb` notebook. Open the `src/` folder and run the notebook file using **Jupyter Notebook**, **Jupyter Lab**, or an IDE like **VS Code**.
 ---
 
 ## 💾 Models
