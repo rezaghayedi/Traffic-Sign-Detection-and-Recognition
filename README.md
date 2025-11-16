@@ -119,13 +119,16 @@ Below is a sample frame from a test video captured by a mobile phone, demonstrat
 
 ---
 
+---
+
 ## 💾 Models
 
-All trained models and weights used in this project are available in the `models/` directory.
+**Note:** You do not need to manually download these models. The code is set up to automatically fetch the necessary files when you run it.
 
-The models include:
-* YOLOv8
-* ResNet-18
-* SVM (Support Vector Machine)
-* KNN (K-Nearest Neighbors)
-* Random Forest
+However, for those who wish to have the model files directly for inspection or offline use, they are available at the links below:
+
+* **YOLOv8:** [https://drive.google.com/file/d/1hPKc-xkz9dQoH6xaNaUqQ7dWZzhf6qwu/view?usp=sharing]
+* **ResNet-18:** [https://drive.google.com/file/d/1pw1X50KZfO5nws8SNKFm0P1OfwdDbcDa/view?usp=sharing]
+* **SVM:** [https://drive.google.com/file/d/1btfabc9G_DFct9MX7XFpiDYzfevzTqqP/view?usp=sharing]
+* **KNN:** [https://drive.google.com/file/d/1--7yQUVX5Er_nWLpcAHV5LT9oBTYHbLL/view?usp=sharing]
+* **Random Forest:** [https://drive.google.com/file/d/1-9HrApW_GAyP3DtatilIJXrGluGcpAUr/view?usp=sharing]
