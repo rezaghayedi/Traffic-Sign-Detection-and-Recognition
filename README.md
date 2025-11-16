@@ -54,7 +54,8 @@ This diagram illustrates the complete process, from input to final output.
 <p align="center">
   <img src="images/traffic_sign_pipeline.png" alt="Overall Traffic Sign Detection and Classification Workflow" width="85%">
 </p>
-*(A flowchart showing the entire process from input to output.)*
+<p align="center">
+<small><i>A flowchart showing the entire process from input to output.</i></small></p>
 
 ## 🎯 Stage 1: Traffic Sign Detection
 
@@ -78,7 +79,9 @@ In this stage, the model's task is to find the precise location of traffic signs
     <td><img src="images/GTSDB_2_2.png" alt="Detection output from YOLO" width="400"></td>
  </tr>
 </table>
-*(An image from a frame where YOLO has detected and boxed multiple signs.)*
+<p align="center">
+<small><i>An image from a frame where YOLO has detected and boxed multiple signs.</i></small></p>
+
 
 ## 🏷️ Stage 2: Traffic Sign Classification
 
@@ -116,8 +119,7 @@ Below is a sample frame from a test video captured by a mobile phone, demonstrat
   <img src="images/sample_result_Bournemouth.png" alt="Real-time detection in a video frame" width="85%">
 </p>
 <p align="center">
-  <small><i>Lansdowne Roundabout, Bournemouth, UK</i></small>
-</p>
+<small><i>Lansdowne Roundabout, Bournemouth, UK</i></small></p>
 
 
 
