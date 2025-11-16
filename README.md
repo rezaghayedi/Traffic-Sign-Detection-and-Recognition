@@ -66,15 +66,15 @@ In this stage, the model's task is to find the precise location of traffic signs
 
 <table align="center">
  <tr>
-    <td align="center"><b>Input Image (GTSDB)</b></td>
+    <td align="center"><b>Image (GTSDB)</b></td>
     <td align="center"><b>Detection Result (YOLO)</b></td>
  </tr>
  <tr>
-    <td><img src="images/GTSDB_1.png" alt="Input from GTSDB" width="400"></td>
-    <td><img src="images/GTSBD_1.png" alt="Detection output from YOLO" width="400"></td>
+    <td><img src="images/GTSDB_1.png" alt="Output" width="400"></td>
+    <td><img src="images/GTSDB_1_1.png" alt="Detection output from YOLO" width="400"></td>
  </tr>
  <tr>
-    <td><img src="images/GTSDB_2.png" alt="Input from GTSDB" width="400"></td>
+    <td><img src="images/GTSDB_2.png" alt="output" width="400"></td>
     <td><img src="images/GTSDB_2_2.png" alt="Detection output from YOLO" width="400"></td>
  </tr>
 </table>
