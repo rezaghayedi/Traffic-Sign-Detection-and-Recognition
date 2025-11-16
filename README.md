@@ -106,5 +106,12 @@ specific type (e.g., "Speed Limit 60," "Stop Sign," "No Entry").
  </tr>
 </table>
 
-3. **Video Processing:**  
-   After testing on single images, the pipeline processes videos frame by frame. Detected signs are highlighted, and their classes are predicted in real-time, showing the results overlaid on the video.
+## 🎬 Stage 3: Video Processing
+
+After testing on single images, the pipeline processes videos frame by frame. Detected signs are highlighted, and their classes are predicted in real-time, showing the results overlaid on the video.
+
+Below is a sample frame from a test video captured by a mobile phone, demonstrating the model's performance in a real-world scenario.
+
+<p align="center">
+  <img src="images/sample_result_Bournemouth.png" alt="Real-time detection in a video frame" width="85%">
+</p>
