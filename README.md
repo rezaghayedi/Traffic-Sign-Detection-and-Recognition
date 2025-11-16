@@ -71,7 +71,7 @@ In this stage, the model's task is to find the precise location of traffic signs
  </tr>
  <tr>
     <td><img src="images/GTSDB_1.png" alt="Input from GTSDB" width="400"></td>
-    <td><img src="images/GTSBD_1_1.png" alt="Detection output from YOLO" width="400"></td>
+    <td><img src="images/GTSBD_1.png" alt="Detection output from YOLO" width="400"></td>
  </tr>
  <tr>
     <td><img src="images/GTSDB_2.png" alt="Input from GTSDB" width="400"></td>
