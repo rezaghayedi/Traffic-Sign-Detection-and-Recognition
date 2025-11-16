@@ -115,3 +115,17 @@ Below is a sample frame from a test video captured by a mobile phone, demonstrat
 <p align="center">
   <img src="images/sample_result_Bournemouth.png" alt="Real-time detection in a video frame" width="85%">
 </p>
+
+
+---
+
+## 💾 Models
+
+All trained models and weights used in this project are available in the `models/` directory.
+
+The models include:
+* YOLOv8
+* ResNet-18
+* SVM (Support Vector Machine)
+* KNN (K-Nearest Neighbors)
+* Random Forest
