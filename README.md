@@ -98,11 +98,11 @@ specific type (e.g., "Speed Limit 60," "Stop Sign," "No Entry").
     <td>
       <img src="images/GTSRB_1_1.png" alt="Classification Example 1" width="400">
       <br>
-      <b>Predicted: "Speed Limit 30"</b> </td>
+      <b>Predicted: "Priority road"</b> </td>
     <td>
       <img src="images/GTSRB_2_2.png" alt="Classification Example 2" width="400">
       <br>
-      <b>Predicted: "Priority"</b> </td>
+      <b>Predicted: "Speed Limit 30"</b> </td>
  </tr>
 </table>
 
