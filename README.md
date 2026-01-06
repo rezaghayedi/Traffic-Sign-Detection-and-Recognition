@@ -1,7 +1,7 @@
 # Traffic-Sign-Detection-and-Recognition
 A two-stage pipeline for detecting and classifying traffic signs using YOLOv8 and ResNet18, tested on benchmark datasets and real-world video.
 ---
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rezaghayedi/Traffic-Sign-Detection-and-Recognition/blob/main/src/traffic_sign_recognition.ipynb)
 ## 📝 Project Overview
 
 This project implements a **traffic sign detection and classification pipeline** using state-of-the-art deep learning models. It is designed for educational and research purposes and tested on real-world data.
