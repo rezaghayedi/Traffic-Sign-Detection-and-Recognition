@@ -161,3 +161,5 @@ However, for those who wish to have the model files directly for inspection or o
 
 * **Reza Ghayedi**
 * **LinkedIn:** www.linkedin.com/in/rezaghayedi
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rezaghayedi/Traffic-Sign-Detection-and-Recognition/blob/main/src/traffic_sign_detection_and_recognition.ipynb)
